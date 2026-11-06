@@ -1,0 +1,2 @@
+Security Groups - Instance Level - Stateful - Only Allow rules
+Network Access Control Lists - Subnet Level - Stateless (Think about how to handle ephemeral ports) - Both allow and deny rules - Least Rule number wins

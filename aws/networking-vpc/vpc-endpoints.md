@@ -1,0 +1,1 @@
+![[_assets/Pasted image 20260806112324.png]]![[_assets/Pasted image 20260806112414.png]]
