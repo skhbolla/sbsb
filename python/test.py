@@ -63,7 +63,7 @@
 # print(t.a)
 # print(id(t))
 # print(id(t.a))
-
+#
 
 # import sys
 # a = 31234575
@@ -77,3 +77,22 @@
 # print(sys.getrefcount(t[0]))
 # print(t)
 # print(id(t))
+
+
+def func(x):
+    '''
+    Test doc
+    '''
+    print("Hello" , x)
+    print(locals())
+
+print(type(func).__mro__)
+
+
+class Test:
+    def test():
+        print("hello")
+
+t = Test()
+
+print(type(type(t)).__mro__)

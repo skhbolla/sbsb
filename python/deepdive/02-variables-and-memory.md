@@ -108,4 +108,16 @@ Whether id changes or not fully depends on what the RHS evaulates to.
 
 ---
 
+# Variable Equality
+
+Two different meanings to equality:
+
+1. Same memory address ? i.e same object ?  - Do this using `is`
+2. Same object state (data) - Do this using `==` operator
+
+The negation of above will be `is not` and `!=` respectively.
+
+---
+
+
 

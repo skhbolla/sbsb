@@ -1,7 +1,7 @@
 Ok, so the mindset to understand this is that.. 
 Languages like C treat variables as physical spaces on the stack that hold the actual data,
 think of what happens when `int x = 10` is executed in C, 
-the program creates a 4KB space on the stack frame to physical value `10`.
+the program creates a 4 Byte space on the stack frame to physical value `10`.
 
 Here we have a clear "owner" for each variable i.e, the function whose stack frame this value lives on... 
 We still get the ability to pass the memory address of this value (using the `&`),

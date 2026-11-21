@@ -183,4 +183,3 @@ From swapping variables with tuple unpacking to understanding why your list muta
 
 ---
 
-Would you like me to also make this into a **visual version** (diagrams showing names → objects → mutations) so it feels more like a polished blog/tutorial?
